@@ -217,8 +217,7 @@ img {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--accent-bg-cl2);
-  background-color: var(--accent-txt-cl);
+  background-color: var(--accent-bg-cl2);
 }
 
 .hero-btn {
@@ -408,6 +407,7 @@ img {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #f5f4fa;
 }
 
 .team-title {
@@ -658,12 +658,29 @@ img {
   outline: 2px solid red;
   outline-offset: -2px;
 }
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 50%;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #2196f3;
+}
 
 .socials-icon {
   fill: currentColor;
 }
 
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   background-color: #2196f3;
 }
 
